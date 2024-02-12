@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    height: 110vh;
+    width: 100%;
+}
+#head>.img{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+#head>.back{
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    height: 110vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#head>.logo{
+    position: absolute;
+    color: aqua;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#head>.logo>svg{
+    height: 6%;
+    width: 20%;
+    fill: rgb(229,9,20);
+    margin-top: 25px;
+    margin-left: 7vw;
+}
+#head>.button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+#head>.button>.box1{
+    height: 10%;
+    width: 20%;
+    margin-left: 950px;     
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+#head>.button>.box1>nav>.lang{
+    height: 32px;
+    width: 120px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: white;
+}
+#head>.button>.box1>.sign{
+     height: 32px;
+     width: 75px;
+     background-color: rgb(229,9,20);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 25px;
+     margin-left: 25px;
+     border-radius: 5px;
+}
+#head>.button>.box1>.sign>a{
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* ============ Navigation Bar Completed ============== */
+#head>.body{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+#head>.body{
+    height: 60%;
+    width: 70%;
+    /* background-color: aqua; */
+    margin-top: 240px;
+    margin-left: 220px;
+}
+#head>.body>.text1{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#head>.body>.text2{
+    height: 15%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+#head>.body>.text3{
+    height: 10%;
+    width: 100%;
+    /* background-color: green; */
+}
+#head>.body>.text4{
+    height: 25%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head>.body>.text1>h1{
+    color: white;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#head>.body>.text2>h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    margin-left: 150px;
+}
+#head>.body>.text3>h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    margin-left: 140px;
+}
+#head>.body>.text4>.a{
+    height: 90%;
+    width: 50%;
+    /* background-color: aqua; */
+    
+}
+#head>.body>.text4>.b{
+    height: 90%;
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+}
+#head>.body>.text4>.a>input{
+    background-color: transparent;
+    height: 70%;
+    width:380px;
+    font-size: 15px;
+    border-radius: 3px;
+    /* border-color: gray;
+    border-width: 1px; */
+    border: 1px solid rgb(167, 158, 158);
+    margin-left: 120px;
+}
+#head>.body>.text4>.b>div{
+    height: 70%;
+    width: 200px;
+    background-color: rgb(229,9,20);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+#head>.body>.text4>.b>div>h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+/* ============== First View ===============  */
+#bar{
+    background-color: rgb(56, 55, 55);
+    height: 8px;
+    width: 100%;
+}
+/* ========================================================= */
+#body1{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#body1>.content{
+    height: 45%;
+    width: 40%;
+    /* background-color: aqua; */
+    margin-bottom: 25px;
+    margin-left: 160px;
+}
+#body1>.content>.a{
+    height: 40%;
+    width: 100%;
+    /* background-color: blue; */
+}
+#body1>.content>.b{
+    height: 60%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#body1>.content>.a>h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+#body1>.content>.b>p{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body1>.video{
+    height: 80%;
+    width: 45%;
+    /* background-color: yellow; */
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#body1>.video>.a{
+    height: 100%;
+    width: 100%;
+}
+#body1>.video>.a>img{
+    height: 400px;
+    width: 85%;
+    margin-top: 115vh;
+    margin-left: 50vw;
+}
+#body1>.video>.b>video{
+    height: 220px;
+    width: 375px;
+    margin-top: 30vh;
+    margin-left: 55vw;
+}
+/* ============= Second Page ================== */
+#body2{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#body2>.video{
+    height: 80%;
+    width: 40%;
+    /* background-color: yellow; */
+    margin-left: 150px;
+    margin-top: 70px;
+}
+#body2>.content{
+    height: 40%;
+    width: 40%;
+    /* background-color: aqua; */
+}
+#body2>.video>.img{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+#body2>.video>.img>img{
+    height: 90%;
+    width: 90%;
+
+}
+#body2>.content>.a{
+    height: 55%;
+    width: 100%;
+    /* background-color: blue; */
+}
+#body2>.content>.b{
+    height: 45%;
+    width: 100%;
+    /* background-color: green; */
+}
+#body2>.content>.a>h1{
+    color: white;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body2>.content>.b>p{
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+/* =============== Third page =============== */
+#body3{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#body3>.content{
+    height: 35%;
+    width: 40%;
+    /* background-color: aqua; */
+    margin-left: 15px;
+}
+#body3>.video{
+    height: 80%;
+    width: 45%;
+    /* background-color: blue; */
+    /* position: absolute; */
+}
+#body3>.content>.a{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#body3>.content>.b{
+    height: 60%;
+    width: 100%;
+    /* background-color: yellowgreen;    */
+}
+#body3>.content>.a>h1{
+    color: white;
+    font-size: 44px;
+    word-spacing: -7px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body3>.content>.b>p{
+    color: white;
+    font-size: 24px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+#body3>.video>a{
+    height: 100%;
+    width: 90%;
+}
+#body3>.video>a>img{
+    height: 95%;
+    width: 95%;
+    margin-left: 30px;
+}
+#body3>.video>b{
+    height: 100%;
+    width: 90%;
+}
+#body3>.video>b>video{
+    margin-bottom: 100px;
+}
+/* ================ Fourth Page =================== */
+#body4{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#body4>.img{
+    height: 80%;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#body4>.content{
+    height: 50%;
+    width: 40%;
+    /* background-color: yellowgreen; */
+}
+#body4>.img>img{
+    height: 60%;
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#body4>.content>.a{
+    height: 45%;
+    width: 100%;
+    /* background-color: aqua;   */
+}
+#body4>.content>.b{
+    height: 55%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+#body4>.content>.a>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    /* word-spacing: -5px; */
+}
+#body4>.content>.b>p{
+    color: white;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+} 
+/* ================== Fifth page ==================== */
+
+/* ====== need JS Script ========== */
+#body5{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#body5>div{
+    height: 10%;
+    width: 55%;
+    /* background-color: aqua; */
+    margin-top: 80px;
+}
+#body5>div>h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* =========== Footer =============== */
+#footer{
+    height: 62vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#footer>.text1{
+    height: 10%;
+    width: 70%;
+    /* background-color: aqua; */
+    margin-left: 160px;
+    margin-top: 20px;
+}
+#footer>.text2{
+    height: 40%;
+    width: 80%;
+    /* background-color: yellowgreen; */
+    margin-left: 160px;
+    display: flex;
+}
+#footer>.text3{
+    height: 20%;
+    width: 70%;
+    /* background-color: yellow; */
+    margin-left: 160px;
+}
+#footer>.text1>p{
+    color: rgba(255,255,255,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#footer>.text1>p>a{
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0px;
+}
+#footer>.text2>div{
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+
+}
+#footer>.text2>div>ol{
+    list-style: none;
+    /* color: rgba(255,255,255,0.7); */
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#footer>.text2>div>ol>li>a{
+    color: rgba(255,255,255,0.7);
+}
+#footer>.text3>.a{
+    height: 50%;
+    width:15%;
+    /* background-color: aqua; */
+}
+#footer>.text3>.a>select{
+    height: 100%;
+    width: 83%;
+    background-color: transparent;
+    color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+}
+#footer>.text3>.b{
+    height: 50%;
+    width: 15%;
+    /* background-color: aqua; */
+}
+#footer>.text3>.b>h3{
+    color: rgba(255,255,255,0.7);
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* ========== Finished ============= */
